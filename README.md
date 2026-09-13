@@ -30,7 +30,6 @@ using NumPy.
 
 <img src="assets/simplex.gif" alt="Description of the animation" width="500">
 
-
 The visualization exposes the simplex trajectory through feasible solutions,
 including the current basis, pivot direction, reduced costs, and objective
 value at each iteration.
