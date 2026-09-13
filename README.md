@@ -28,7 +28,7 @@ A from-scratch implementation of the simplex method for linear programming,
 derived directly from its mathematical formulation and implemented entirely
 using NumPy.
 
-<img src="assets/simplex.gif" alt="Description of the animation" width="300" height="200">
+<img src="assets/simplex.gif" alt="Description of the animation" width="500">
 
 
 The visualization exposes the simplex trajectory through feasible solutions,
