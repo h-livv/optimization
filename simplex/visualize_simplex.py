@@ -460,10 +460,16 @@ def _draw_iteration(
             ),
         ],
     )
+    info = _info_text(record, A, c, variable_names, decision_index, A.shape[1])
+    n_lines = info.count("\n") + 1
+    height_pt = ax_info.get_position().height * ax_info.figure.get_figheight() * 72
+    fontsize = 12
+    linespacing = (height_pt * 0.98) / (n_lines * fontsize)
     ax_info.text(
         0.0, 1.0,
-        _info_text(record, A, c, variable_names, decision_index, A.shape[1]),
-        va="top", ha="left", family="monospace", fontsize=9,
+        info,
+        va="top", ha="left", family="monospace",
+        fontsize=fontsize, linespacing=linespacing,
         transform=ax_info.transAxes,
     )
 

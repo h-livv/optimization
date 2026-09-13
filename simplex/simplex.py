@@ -114,7 +114,6 @@ def simplex(A, b, c, basic_index, process="max", variable_names=None):
 
     return history
 
-
 '''
 max z = 4x1 + 2x2 + x3
 
