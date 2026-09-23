@@ -1,13 +1,15 @@
 # Optimization
 
-From-scratch implementations of optimization algorithms, derived directly
-from their mathematical formulations and implemented using **NumPy**.
+### From-scratch implementations of optimization algorithms, derived directly from their mathematical formulations and implemented using **NumPy**.
 
-The goal is to understand the connection between:
+The goal is to understand the connection between
 
 **mathematics → algorithm → implementation → behavior**
 
 rather than treating optimization methods as black-box procedures.
+
+> **Status:** In progress alongside my study of optimization. I’ll add
+> methods and examples as I work through them.
 
 ## Implemented
 
@@ -30,10 +32,8 @@ It explores:
 * movement between vertices
 * the linear-algebraic structure of simplex
 
-## Approach
+## Notes
 
-Each method is developed from its mathematical formulation and translated
-directly into code without using optimization libraries.
-
-The repository is intended to grow alongside coursework as new optimization
-methods are studied.
+The simplex method is the first implementation in what I expect to be a
+growing collection. Each method starts from its mathematical formulation and
+is worked through in code.
